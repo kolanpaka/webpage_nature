@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+.page_up{
+    
+    border-radius: 100%;
+    width:40px;
+    height: 40px;
+    display:inline-block;
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #FFFFFF;
+    opacity: 0.4;
+
+ 
+
+}
+.page_up:hover{
+    opacity: 1;
+}
+.page_up span{
+    position: relative;
+    top:9.5px;
+    left: 8px;
+    font-weight: bolder;
+}
+.page_up a{
+    text-decoration: none;
+    color: black;
+
+}
+.page_up a:hover{
+    color: black;
+   
+}
+
+.main_{
+    width: 100%;
+    height: 100vh;
+    /* background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/mountains.png);
+    background-attachment:fixed;
+
+}
+.Text{
+    color: rgb(0, 0, 0);
+    width: 540px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
+}
+.Text  h1{
+    margin: 10px;
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+}
+.Text p{
+    line-height: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.video_of_sadhguru{
+    /* margin: 15px; */
+    text-align: center;
+}
+.video_of_sadhguru iframe{
+    border: 3px solid whitesmoke;
+}
+.description{
+    padding: 30px 70px;
+}
+.description article p {
+    line-height: 34px;
+    margin: 10px;
+    font-size: 20px;
+}
+.description  blockquote{
+    margin: 60px 0;
+}
+.design_quote{
+    margin-left: auto;
+    text-align: right;
+    width: 440px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40.96px;
+    color: rgb(111, 99, 88);
+    border-right:50px solid white ;
+    padding-right:30px;
+}
+.three_design_layout{
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg);
+    background-size: cover;
+    padding: 30px 70px;
+}
+.sadhguru_font{
+    text-align: center;
+    color: cornsilk;
+    margin: 20px;
+    
+}
+.Aa_{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    flex-wrap: wrap;
+   
+    
+}
+.sadhguru_font h1{
+    font-size: 40px;
+}
+.row{
+    width: 370px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 2px solid rgb(229, 227, 227);
+  
+    /* box-shadow: 10px 10px  15px  rgba(0, 0, 0, 0.75); */
+    /* box-shadow: 0px 20px  30px 0px rgb(0, 0, 0,.90); */
+    box-shadow:
+  0px 1px 2.1px rgba(0, 0, 0, 0.078),
+  0px 2.2px 4.7px rgba(0, 0, 0, 0.115),
+  0px 3.7px 7.9px rgba(0, 0, 0, 0.142),
+  0px 5.6px 12px rgba(0, 0, 0, 0.164),
+  0px 8.1px 17.3px rgba(0, 0, 0, 0.185),
+  0px 11.5px 24.5px rgba(0, 0, 0, 0.206),
+  0px 16.3px 34.7px rgba(0, 0, 0, 0.228),
+  0px 23.7px 50.4px rgba(0, 0, 0, 0.255),
+  0px 36.6px 77.6px rgba(0, 0, 0, 0.292),
+  0px 65px 138px rgba(0, 0, 0, 0.37);
+  transition: all 400ms ;
+}
+.row:hover{
+    transform: scale(1.1);
+}
+
+
+
+.row img{
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.row_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 190px;
+}
+.row_content h1{
+    font-size: 30px;
+    color: black;
+}
+.row_content p{
+    color:rgb(111, 99, 88) ;
+}
+footer{
+    display: flex;
+    padding: 20px 70px;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+}
+footer  ul li{
+    margin: 8px;
+}
+.more_details{
+    width: 200px;
+}
+footer  h2  {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: red;
+}
+
+
